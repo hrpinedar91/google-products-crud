@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    reactStrictMode: true,
+    images: {
+      domains: ['www.appsheet.com'],
+    },
+};
 
 export default nextConfig;
